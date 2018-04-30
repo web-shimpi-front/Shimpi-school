@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	font-family: "Hiragino Kaku Gothic ProN";
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* header */
+header {
+	height: 65px;
+	width: 100%;
+	background: rgba(222, 184, 135, 0.5);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.logo {
+	width: 50px;
+	color: white;
+	line-height: 65px;
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.7;
+}
+.logo span {
+	color: #ff0000;
+	opacity: 0.7;
+}
+.header-left {
+	float: left;
+}
+.header-right {
+	float: right;
+	transition: all 0.5s;
+}
+.header-right a {
+	background: rgba(222,184,135,0.4);
+	display: inline-block;
+	line-height: 65px;
+	color: white;
+	opacity: 0.7;
+	margin: 0 8px;
+	padding: 0 10px;
+	border-radius: 50px;
+}
+.header-right a:hover {
+	background: rgba(222,184,135,0.5)
+}
+
+
+/* top-wrapper */
+.top-wrapper {
+	text-align: center;
+	height: 500px;
+	padding: 180px 0 0;
+	background: url(images/top.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.top-wrapper h1 {
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin: 0;
+	color: white;
+	opacity: 0.7;
+}
+.top-wrapper p {
+	color: white;
+	opacity: 0.7;
+	margin: 0;
+}
+.btn-wrapper {
+	margin: 50px 0 50px;
+}
+.signup {
+	background: #deb887;
+}
+.facebook {
+	background: #6495ed;
+	margin-right: 10px;
+}
+.twitter {
+	background: #87cefa;
+}
+.btn {
+	padding: 10px 20px 10px;
+	opacity: 0.6;
+	border-radius: 4px;
+	color: white;
+}
+.btn:hover {
+	opacity: 1;
+}
+.btn-wrapper p {
+	margin: 15px 0 15px;
+	font-weight: bold;
+}
+
+
+/* lesson-wrapper */
+.lesson-wrapper {
+	height: 580px;
+	background: rgba(222,184,135,0.4);
+	text-align: center;
+}
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #deb877;
+}
+.lesson {
+	float: left;
+	width: 25%;
+}
+.lesson-icon {
+	position: relative;
+}
+.lesson-icon p {
+	position: absolute;
+	top: 73px;
+	width: 100%;
+	color: white;
+	opacity: 0.7;
+}
+.txt-contents {
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	color: #8b4513;
+	font-size: 12px;
+}
+
+
+/* message-wrapper */
+.heading h3 {
+	font-weight: normal;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.message-wrapper {
+	height: 400px;
+	background: rgba(222,184,135,0.3);
+	text-align: center;
+	border-bottom: 1px solid #8b5028;
+}
+.message {
+	padding: 15px 40px;
+	background: #8b5028;
+	opacity: 0.6;
+	cursor: pointer;
+	box-shadow: 0 7px #8a3800;
+}
+.message:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
+
+
+/* footer */
+footer {
+	width: 100%;
+	height: 65px;
+	background: rgba(222, 184, 135, 0.5);
+}
+.footer-left {
+	float: left;
+}
+.footer-right {
+	float: right;
+}
+.footer-right p {
+	display: inline;
+	line-height: 65px;
+	color: white
+}
+
+
